@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Регистрация для добавление сатьи(обязательно)
+{% endblock %}
+
+{% block body %}
+<h1>Добавление записи</h1>
+
+<form method="post">
+    <input type="number" name="age" placeholder="Введите возраст">
+    <input type="number" name="height" placeholder="Введите рост">
+    <input type="text" name="educational_institution" placeholder="Введите учебное заведение в котором обучались или обучаетесь">
+    <input type="text" name="country" placeholder="Введите страну в которой продиваете">
+    <button class='btn--success' type="submit">Добавить</button>
+</form>
+{% endblock %}
